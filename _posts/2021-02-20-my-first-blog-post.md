@@ -6,4 +6,4 @@ date: 2014-04-30
 
 Hello World!
 
-![My helpful screenshot](/assets/monkey.JPG)
+![My helpful screenshot](/assets/monkey copie.JPG)
