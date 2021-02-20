@@ -3,3 +3,4 @@ markdown: kramdown
 
 instagram_username: spioupiou
 
+permalink: /blog/:year/:month/:day/:title
