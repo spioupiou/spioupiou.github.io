@@ -1,0 +1,12 @@
+theme: minima
+
+title: Adventures in Japan
+author: Spioupiou 
+email: cedrine.monnet@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  The pictures are there, and you just take them - Robert Capa
+
+# social links
+instagram_username: spioupiou
+github_username:  spioupiou
+show_excerpts: true # set to false to remove excerpts on the homepage
