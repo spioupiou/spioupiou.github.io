@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+
+    <body>
+
+        <header class="page-header header container-fluid">
+            <div class="overlay"></div>
+            <div class="nav-scroller py-1 mb-2">
+                <nav class="navbar navbar-expand-md">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="blog.html">Blog</a>
+                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </nav>
+            </div>
+            <div class="description">
+                <h2>Welcome to my website!</h2>
+                <p>I am just getting started with CSS and Bootstrap, that's why the website doesn't look so great. Please bear with me!</p>
+                <p id="button"><a class="btn btn-secondary" href="blog.html" role="button">Blog</a></p>
+            </div>
+        </header>
+
+        <script>
+
+            var ready = (callback) => {
+                if (document.readyState != "loading") callback();
+                else document.addEventListener("DOMContentLoaded", callback);
+            }
+            ready(() => {
+                document.querySelector(".header").style.height = window.innerHeight + "px";
+            })
+
+        </script>
+
+    </body>
+
+</html>
