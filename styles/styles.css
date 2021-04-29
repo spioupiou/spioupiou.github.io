@@ -1,0 +1,45 @@
+#one {
+    background-image: url("/IMG_3496.JPG"); 
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: -290px -100px;
+}
+
+.lead {
+    text-align: center;
+
+}
+
+.heading {
+    text-align: center;
+}
+
+.container {
+    background-color: red;
+}
+#two {
+    background-color: white;
+    margin-top: 80px;
+    min-height: 100vh;
+}
+
+#three {
+    background-color: #25262A;
+    min-height: 100vh;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+
+
+
+p {
+    text
+}
+
+.row portrait {
+    
+}
