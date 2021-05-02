@@ -123,7 +123,6 @@ a {
   background-color: #25262A;
 }
 
-
 h3 {
   font-size: 24px;
 	text-align: center;
@@ -133,6 +132,7 @@ h3 {
 #pic {
   padding-bottom: 20px;
 }
+
 #pic:hover {
   opacity:0.5;
   width: 90%;
