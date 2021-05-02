@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+@media screen and (max-width: 655px) {
+	#one {
+		font-size: 300% !important;
+		padding-top: 40vh !important;
+	}
+
+	.move {
+		width: 100% !important;
+	}
+}
+
+@media screen and (max-width: 460px) {
+	#one {
+		padding-top: 35vh !important;
+	}
+
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#one {
+  text-align: center;
+  color: white;
+  background-image: url("/IMG_3496.JPG");
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 58px;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+	padding-top: 45vh;
+}
+
+.fix, .move {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.fix {  
+  animation: showup 7s infinite;
+}
+
+.move {
+  width: 375px;
+  animation: reveal 7s infinite;
+}
+
+.move span {
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+  0% {opacity:0;}
+  20% {opacity:1;}
+  80% {opacity:1;}
+  100% {opacity:0;}
+}
+
+@keyframes slidein {
+  0% { margin-left:-800px; }
+  20% { margin-left:-800px; }
+  35% { margin-left:-5px; }
+  100% { margin-left:-5px; }
+}
+
+@keyframes reveal {
+  0% {opacity:0;width:0px;}
+  20% {opacity:1;width:0px;}
+  30% {width:375px;}
+  80% {opacity:1;}
+  100% {opacity:0;width:375px;}
+}
+
+#two {
+  background-color: white;
+  min-height: 100vh;
+  text-align: center;
+}
+
+h2 {
+	font-size: 50px !important;
+	text-align: center;
+	font-family: "Roboto" !important;
+  margin-bottom: 15px;
+}
+
+.text {
+	font-size: 16px;
+	text-align: justify;
+	color: #25262A;
+	font-family: "Roboto" !important;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto auto;
+}
+
+#icon {
+  font-size: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+a {
+  color: #747d86 !important;
+}
+
+#projects {
+  padding-top: 5vh;
+}
+
+#three {
+  min-height: 100vh !important;
+  color: #f1f1f1;
+  font-family: "Roboto" !important;
+  text-align: center;
+  background-color: #25262A;
+}
+
+h3 {
+  font-size: 24px;
+	text-align: center;
+	font-family: "Roboto" !important;
+}
+
+#pic {
+  padding-bottom: 20px;
+}
+
+#pic:hover {
+  opacity:0.5;
+  width: 90%;
+  height: auto;
+}
