@@ -13,14 +13,28 @@
 </head>
 
 <body>
-
+  <ul id="menu">
+    <li><a href="#s1">About</a></li>
+    <li><a href="#s2">Projects</a></li>
+    <li><a href="#s3">Contact</a></li>
+  </ul>
   <div id="fullPage">
     <div class="section s1">
-      <h1>The First Section <a href="#s2">click</a></h1>
+      <h1>The First Section</h1>
     </div>
 
     <div class="section s2">
-      <h1>The Second Section</h1>
+      <div class="slide">
+        <h1>Project 1</h1>
+      </div>
+
+      <div class="slide">
+        <h1>Project 2</h1>
+      </div>
+
+      <div class="slide">
+        <h1>Project 3</h1>
+      </div>
     </div>
 
     <div class="section s3">
@@ -34,9 +48,11 @@
 
     <script>
       new fullpage('#fullPage', {
+        menu: '#menu',
         autoScrolling: true,
-        navigation: true,
         anchors: ['s1', 's2', 's3'],
+        controlArrows: false,
+        slidesNavigation: true,
         credits: { enabled: false },
       })
     </script>
