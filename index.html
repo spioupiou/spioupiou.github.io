@@ -16,7 +16,7 @@
 
   <div id="fullPage">
     <div class="section s1">
-      <h1>The First Section</h1>
+      <h1>The First Section <a href="#s2">click</a></h1>
     </div>
 
     <div class="section s2">
@@ -34,7 +34,10 @@
 
     <script>
       new fullpage('#fullPage', {
-        autoScrolling: true
+        autoScrolling: true,
+        navigation: true,
+        anchors: ['s1', 's2', 's3'],
+        credits: { enabled: false },
       })
     </script>
 </body>

@@ -3,10 +3,24 @@
 h1 {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+  color: white;
 }
 
 .s1 {
   background: url('../images/one.jpg');
   background-size: cover;
+}
 
+.s2 {
+  background: url('../images/two.jpg');
+  background-size: cover;
+}
+
+.s3 {
+  background: url('../images/three.jpg');
+  background-size: cover;
+}
+
+span {
+  background: white !important;
 }
