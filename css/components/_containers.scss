@@ -1,0 +1,9 @@
+.container-flex {
+  display: flex;
+  height: 80%;
+
+  .child-flex {
+    background-color: green;
+    min-width: 50%;
+  }
+}

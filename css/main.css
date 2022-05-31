@@ -44,6 +44,18 @@ span {
   text-align: center;
 }
 
+.container-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80%;
+}
+
+.container-flex .child-flex {
+  background-color: green;
+  min-width: 50%;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
