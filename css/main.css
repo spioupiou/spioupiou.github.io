@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap");
-body {
-  font-family: 'Montserrat', sans-serif;
-}
-
 #menu {
   position: fixed;
   top: 0;
@@ -24,16 +20,6 @@ body {
   margin-right: 10px;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
-
-h1 {
-  text-align: center;
-  color: white;
-}
-
 .s1 {
   background: url("../images/one.jpg");
   background-size: cover;
@@ -49,11 +35,26 @@ h1 {
   background-size: cover;
 }
 
+/*Slides Navigation*/
 span {
   background: white !important;
 }
 
 .fp-slidesNav.fp-bottom {
   text-align: center;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
